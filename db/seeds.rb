@@ -1,4 +1,5 @@
 puts "🌱 Seeding spices..."
+Spice.destroy_all
 
 # Spice Data from spicejungle.com
 Spice.create!([
